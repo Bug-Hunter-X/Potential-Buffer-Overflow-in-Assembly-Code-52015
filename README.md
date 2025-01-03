@@ -1,0 +1,1 @@
+This repository demonstrates a potential buffer overflow vulnerability in a short snippet of x86 assembly code. The vulnerability arises from the lack of bounds checking before accessing memory using an index provided (implicitly) by the `esi` register. The solution shows how to add bounds checking to mitigate the risk.
